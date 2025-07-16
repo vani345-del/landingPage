@@ -1,29 +1,38 @@
 import { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import pic1 from '../assets/pic1.jpg';
+import pic2 from '../assets/pic2.jpg';  
+import pic3 from '../assets/pic3.jpg';
+import pic4 from '../assets/pic4.jpg';
+
+import pic6 from '../assets/pic6.jpg';
+import pic7 from '../assets/pic7.jpg';
+
 
 const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1518834107812-67b0b7c58434?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    src: pic1,
     alt: 'Ballet Performance'
   },
   {
-    src: 'https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    src:pic2,
+
     alt: 'Hip-Hop Class'
   },
   {
-    src: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    src: pic3,
     alt: 'Contemporary Dance'
   },
   {
-    src: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    src: pic4,
     alt: 'Salsa Dancing'
   },
   {
-    src: 'https://images.unsplash.com/photo-1562077981-4d7eafd44932?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    src: pic7,
     alt: 'Classical Indian Dance'
   },
   {
-    src: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    src: pic6,
     alt: 'Studio Practice'
   }
 ];
